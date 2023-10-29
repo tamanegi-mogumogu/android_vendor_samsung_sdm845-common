@@ -5,3 +5,42 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "HotwordEnrollmentOKGoogleExWCD9340",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "HotwordEnrollmentXGoogleExWCD9340",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "TimeService",
+	owner: "samsung",
+	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+dex_import {
+	name: "audiosphere",
+	owner: "samsung",
+	jars: ["proprietary/system/framework/audiosphere.jar"],
+}
+

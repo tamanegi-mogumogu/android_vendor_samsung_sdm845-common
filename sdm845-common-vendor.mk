@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/system/app/BuiltInPrintService/lib/arm64/libwfds.so:$(TARGET_COPY_OUT_SYSTEM)/app/BuiltInPrintService/lib/arm64/libwfds.so \
     vendor/samsung/sdm845-common/proprietary/system/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
     vendor/samsung/sdm845-common/proprietary/system/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
-    vendor/samsung/sdm845-common/proprietary/system/framework/audiosphere.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/audiosphere.jar \
     vendor/samsung/sdm845-common/proprietary/system/lib/libremotedisplay_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libremotedisplay_wfd.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/libwfdaac.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdaac.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.bluetooth_audio@2.0.so \
@@ -28,13 +27,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.vpp@1.2.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.samsung.hardware.soter@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.soter@3.0.so \
-    vendor/samsung/sdm845-common/proprietary/system/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk \
-    vendor/samsung/sdm845-common/proprietary/system/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk \
     vendor/samsung/sdm845-common/proprietary/system/product/lib/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/product/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/samsung/sdm845-common/proprietary/system/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib64/vendor.qti.imsrtpservice@2.1.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/app/TimeService/TimeService.apk:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/TimeService.apk \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
@@ -418,3 +414,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@2.1.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.samsung.hardware.soter@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.soter@3.0.so
+
+PRODUCT_PACKAGES += \
+    HotwordEnrollmentOKGoogleExWCD9340 \
+    HotwordEnrollmentXGoogleExWCD9340 \
+    TimeService \
+    audiosphere
