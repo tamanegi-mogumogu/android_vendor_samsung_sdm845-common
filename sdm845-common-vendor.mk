@@ -416,6 +416,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.samsung.hardware.soter@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.soter@3.0.so
 
 PRODUCT_PACKAGES += \
+    libplatformconfig \
     HotwordEnrollmentOKGoogleExWCD9340 \
     HotwordEnrollmentXGoogleExWCD9340 \
     TimeService \
