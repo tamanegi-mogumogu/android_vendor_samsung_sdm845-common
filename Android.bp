@@ -64,3 +64,15 @@ dex_import {
 	jars: ["proprietary/system/framework/audiosphere.jar"],
 }
 
+<<<<<<< HEAD
+=======
+prebuilt_etc_xml {
+	name: "android.hardware.health@2.1",
+	owner: "samsung",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+>>>>>>> upstream/test
