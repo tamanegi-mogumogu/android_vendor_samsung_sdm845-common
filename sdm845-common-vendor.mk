@@ -9,21 +9,28 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/system/app/BuiltInPrintService/lib/arm64/libwfds.so:$(TARGET_COPY_OUT_SYSTEM)/app/BuiltInPrintService/lib/arm64/libwfds.so \
     vendor/samsung/sdm845-common/proprietary/system/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
     vendor/samsung/sdm845-common/proprietary/system/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
+    vendor/samsung/sdm845-common/proprietary/system/lib/android.hardware.graphics.composer@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.graphics.composer@2.1.so \
+    vendor/samsung/sdm845-common/proprietary/system/lib/android.hardware.graphics.composer@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.graphics.composer@2.3.so \
+    vendor/samsung/sdm845-common/proprietary/system/lib/libmemtrack.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmemtrack.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/libremotedisplay_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libremotedisplay_wfd.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/libwfdaac.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdaac.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.bluetooth_audio@2.0.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/system/lib/vendor.qti.hardware.display.composer@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.display.composer@2.0.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.vpp@1.2.so \
     vendor/samsung/sdm845-common/proprietary/system/lib/vendor.samsung.hardware.soter@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.soter@3.0.so \
+    vendor/samsung/sdm845-common/proprietary/system/lib64/android.hardware.graphics.composer@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.graphics.composer@2.1.so \
+    vendor/samsung/sdm845-common/proprietary/system/lib64/android.hardware.graphics.composer@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.graphics.composer@2.3.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/libwfds.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfds.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.display.composer@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.display.composer@2.0.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.vpp@1.2.so \
     vendor/samsung/sdm845-common/proprietary/system/lib64/vendor.samsung.hardware.soter@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.soter@3.0.so \
@@ -31,42 +38,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/system/product/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/samsung/sdm845-common/proprietary/system/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib64/vendor.qti.imsrtpservice@2.1.so \
-<<<<<<< HEAD
-    vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.health@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.health@1.0.so \
-=======
-    vendor/samsung/sdm845-common/proprietary/system/system/lib/android.hardware.power-V1-cpp.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.power-V1-cpp.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib/android.hardware.power.stats@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.power.stats@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib/android.hardware.power@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.power@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib/android.hardware.power@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.power@1.1.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib/android.hardware.power@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.power@1.2.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib/android.hardware.power@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.power@1.3.so \
     vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.health.storage@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.health.storage@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.health@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.health@1.0.so \
     vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.health@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.health@2.0.so \
     vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.health@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.health@2.1.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.power-V1-cpp.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.power-V1-cpp.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.power.stats@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.power.stats@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.power@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.power@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.power@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.power@1.1.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.power@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.power@1.2.so \
-    vendor/samsung/sdm845-common/proprietary/system/system/lib64/android.hardware.power@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.power@1.3.so \
->>>>>>> upstream/test
     vendor/samsung/sdm845-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
-<<<<<<< HEAD
-    vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-qti \
-=======
+    vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.3-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.3-service \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/android.hardware.health@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service \
+    vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-qti \
-    vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/android.hardware.power@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power@1.0-service \
->>>>>>> upstream/test
     vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
-    vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
-    vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.soter@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.soter@3.0-service \
     vendor/samsung/sdm845-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
@@ -89,13 +75,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
-<<<<<<< HEAD
-    vendor/samsung/sdm845-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc \
-=======
+    vendor/samsung/sdm845-common/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.3-service.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
+    vendor/samsung/sdm845-common/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc \
-    vendor/samsung/sdm845-common/proprietary/vendor/etc/init/android.hardware.power@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power@1.0-service.rc \
->>>>>>> upstream/test
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
@@ -105,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
-    vendor/samsung/sdm845-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/vendor.samsung.hardware.soter@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.soter@3.0-service.rc \
     vendor/samsung/sdm845-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
@@ -127,12 +109,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-<<<<<<< HEAD
-=======
     vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.health@2.0-impl-2.1-qti.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/android.hardware.power@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.power@1.0-impl.so \
->>>>>>> upstream/test
+    vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm845.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/gralloc.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.sdm845.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/hwcomposer.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.sdm845.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/memtrack.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.sdm845.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/hw/sound_trigger.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm845.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
@@ -202,6 +185,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib/libgralloccore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloccore.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgrallocutils.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmiedid.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
@@ -238,10 +223,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-<<<<<<< HEAD
-=======
     vendor/samsung/sdm845-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
->>>>>>> upstream/test
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-hal-qmi.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungVoipResampler.so \
@@ -302,14 +284,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.3.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.4.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.5.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so \
-<<<<<<< HEAD
-    vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.0.so \
-=======
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.1.so \
@@ -318,7 +293,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.4.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.5.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.6.so \
->>>>>>> upstream/test
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.2.so \
@@ -335,11 +309,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
-<<<<<<< HEAD
-=======
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.health@2.0-impl-2.1-qti.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib64/hw/android.hardware.power@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.power@1.0-impl.so \
->>>>>>> upstream/test
+    vendor/samsung/sdm845-common/proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib64/hw/gralloc.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.sdm845.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib64/hw/hwcomposer.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.sdm845.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib64/hw/memtrack.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.sdm845.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm845.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
@@ -397,6 +372,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-osal.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib64/libgralloccore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloccore.so \
+    vendor/samsung/sdm845-common/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/libhexagon_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_nn_stub.so \
@@ -478,12 +455,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.3.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.4.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -491,10 +464,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.connection@1.1.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
-<<<<<<< HEAD
-    vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
-=======
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
@@ -504,7 +473,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.5.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.6.so \
->>>>>>> upstream/test
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.2.so \
@@ -516,13 +484,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/vendor/lib64/vendor.samsung.hardware.soter@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.soter@3.0.so
 
 PRODUCT_PACKAGES += \
-    libplatformconfig \
     HotwordEnrollmentOKGoogleExWCD9340 \
     HotwordEnrollmentXGoogleExWCD9340 \
     TimeService \
-<<<<<<< HEAD
-    audiosphere
-=======
     audiosphere \
     android.hardware.health@2.1
->>>>>>> upstream/test
