@@ -51,23 +51,6 @@ android_app_import {
 	},
 	privileged: true,
 }
-<<<<<<< HEAD
-=======
-
-dex_import {
-	name: "audiosphere",
-	owner: "samsung",
-	jars: ["proprietary/system/framework/audiosphere.jar"],
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.health@2.1",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
 	name: "libprofileparamstorage",
@@ -77,7 +60,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libprofileparamstorage.so"],
+			srcs: ["proprietary/lib/libprofileparamstorage.so"],
 		},
 	},
 	compile_multilib: "32",
@@ -94,7 +77,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsecaudiocoreutils.so"],
+			srcs: ["proprietary/lib/libsecaudiocoreutils.so"],
 		},
 	},
 	compile_multilib: "32",
@@ -102,4 +85,3 @@ cc_prebuilt_library_shared {
 	prefer: true,
 	soc_specific: true,
 }
->>>>>>> 73c1b61 (sdm845-common: Dolby support)
