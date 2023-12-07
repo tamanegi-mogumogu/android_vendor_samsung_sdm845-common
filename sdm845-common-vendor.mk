@@ -58,7 +58,9 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleExWCD9340 \
     ims
 
-
-	
-
-
+# Dolby Atmos
+ifeq ($(TARGET_HAVE_SAMSUNG_DAP),true)
+PRODUCT_PACKAGES += \
+    libprofileparamstorage \
+    libsecaudiocoreutils
+endif
