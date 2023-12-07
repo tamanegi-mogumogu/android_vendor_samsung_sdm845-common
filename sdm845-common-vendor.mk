@@ -489,3 +489,10 @@ PRODUCT_PACKAGES += \
     TimeService \
     audiosphere \
     android.hardware.health@2.1
+
+# Dolby Atmos
+ifeq ($(TARGET_HAVE_SAMSUNG_DAP),true)
+PRODUCT_PACKAGES += \
+    libprofileparamstorage \
+    libsecaudiocoreutils
+endif
